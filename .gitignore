@@ -1,0 +1,21 @@
+
+*.cine
+*.avi
+*.chd
+*.pdf
+new 1.txt
+new 1.txt.bak
+preamble.txt
+preamble.txt.bak
+reading groups.txt
+*.docx
+*.pptx
+running bayesraits.txt
+running bayesraits.txt.bak
+*.wav
+tchakamau/Untitled.mph
+untitled.png
+shape_testing.npy
+ffmpeg-4.1.tar.bz2
+__pycache__/Functions.cpython-37.pyc
+__pycache__/my_funs.cpython-37.pyc
