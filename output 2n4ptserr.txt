@@ -1,0 +1,808 @@
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 5.0
+[[98.  8.]
+ [ 7. 77.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 10.0
+[[83.  7.]
+ [ 6. 50.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 15.0
+[[79.  7.]
+ [ 6. 46.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 20.0
+[[70.  7.]
+ [ 6. 41.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 25.0
+[[64.  7.]
+ [ 6. 40.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 30.0
+[[63.  7.]
+ [ 6. 41.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 35.0
+[[56.  7.]
+ [ 6. 36.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 40.0
+[[52.  7.]
+ [ 6. 34.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 45.0
+[[51.  4.]
+ [ 3. 32.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 50.0
+[[49.  4.]
+ [ 3. 28.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 55.0
+[[47.  4.]
+ [ 3. 26.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 60.0
+[[44.  4.]
+ [ 3. 24.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 65.0
+[[41.  4.]
+ [ 3. 23.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 70.0
+[[41.  4.]
+ [ 3. 21.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 75.0
+[[36.  4.]
+ [ 3. 18.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 80.0
+[[36.  4.]
+ [ 3. 13.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 85.0
+[[33.  4.]
+ [ 3. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 90.0
+[[31.  4.]
+ [ 3. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 95.0
+[[29.  4.]
+ [ 3. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 5.0
+C threshold: 100.0
+[[26.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 5.0
+[[42.  8.]
+ [ 7. 32.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 10.0
+[[34.  7.]
+ [ 6. 26.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 15.0
+[[39.  7.]
+ [ 6. 27.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 20.0
+[[36.  7.]
+ [ 6. 24.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 25.0
+[[34.  7.]
+ [ 6. 26.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 30.0
+[[33.  7.]
+ [ 6. 26.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 35.0
+[[29.  7.]
+ [ 6. 22.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 40.0
+[[29.  7.]
+ [ 6. 21.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 45.0
+[[34.  4.]
+ [ 3. 19.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 50.0
+[[33.  4.]
+ [ 3. 18.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 55.0
+[[34.  4.]
+ [ 3. 19.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 60.0
+[[33.  4.]
+ [ 3. 18.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 65.0
+[[32.  4.]
+ [ 3. 16.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 70.0
+[[31.  4.]
+ [ 3. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 75.0
+[[26.  4.]
+ [ 3. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 80.0
+[[27.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 85.0
+[[27.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 90.0
+[[25.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 95.0
+[[23.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 10.0
+C threshold: 100.0
+[[19.  4.]
+ [ 3.  8.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 5.0
+[[28.  8.]
+ [ 7. 27.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 10.0
+[[29.  7.]
+ [ 6. 22.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 15.0
+[[28.  7.]
+ [ 6. 21.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 20.0
+[[25.  7.]
+ [ 6. 21.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 25.0
+[[27.  7.]
+ [ 6. 21.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 30.0
+[[27.  7.]
+ [ 6. 21.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 35.0
+[[23.  7.]
+ [ 6. 19.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 40.0
+[[21.  7.]
+ [ 6. 18.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 45.0
+[[25.  4.]
+ [ 3. 16.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 50.0
+[[25.  4.]
+ [ 3. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 55.0
+[[26.  4.]
+ [ 3. 16.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 60.0
+[[27.  4.]
+ [ 3. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 65.0
+[[27.  4.]
+ [ 3. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 70.0
+[[27.  4.]
+ [ 3. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 75.0
+[[22.  4.]
+ [ 3. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 80.0
+[[22.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 85.0
+[[22.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 90.0
+[[20.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 95.0
+[[18.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 15.0
+C threshold: 100.0
+[[14.  4.]
+ [ 3.  8.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 5.0
+[[22.  8.]
+ [ 7. 21.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 10.0
+[[25.  7.]
+ [ 6. 20.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 15.0
+[[23.  7.]
+ [ 6. 18.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 20.0
+[[20.  7.]
+ [ 6. 17.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 25.0
+[[20.  7.]
+ [ 6. 18.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 30.0
+[[20.  7.]
+ [ 6. 18.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 35.0
+[[18.  7.]
+ [ 6. 16.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+
+T threshold: 20.0
+C threshold: 40.0
+[[17.  7.]
+ [ 6. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 45.0
+[[20.  4.]
+ [ 3. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 50.0
+[[21.  4.]
+ [ 3. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 55.0
+[[21.  4.]
+ [ 3. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 60.0
+[[22.  4.]
+ [ 3. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 65.0
+[[23.  4.]
+ [ 3. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 70.0
+[[23.  4.]
+ [ 3. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 75.0
+[[19.  4.]
+ [ 3. 13.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 80.0
+[[19.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 85.0
+[[18.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 90.0
+[[16.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 95.0
+[[14.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 20.0
+C threshold: 100.0
+[[11.  4.]
+ [ 3.  8.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 5.0
+[[20.  8.]
+ [ 7. 19.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 10.0
+[[22.  7.]
+ [ 6. 17.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 15.0
+[[20.  7.]
+ [ 6. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 20.0
+[[18.  7.]
+ [ 6. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 25.0
+[[17.  7.]
+ [ 6. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 30.0
+[[18.  7.]
+ [ 6. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 35.0
+[[16.  7.]
+ [ 6. 13.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 40.0
+[[15.  7.]
+ [ 6. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 45.0
+[[17.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 50.0
+[[18.  4.]
+ [ 3. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 55.0
+[[18.  4.]
+ [ 3. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 60.0
+[[17.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 65.0
+[[18.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 70.0
+[[18.  4.]
+ [ 3. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 75.0
+[[15.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 80.0
+[[16.  4.]
+ [ 3.  7.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 85.0
+[[15.  4.]
+ [ 3.  7.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 90.0
+[[14.  4.]
+ [ 3.  7.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 95.0
+[[12.  4.]
+ [ 3.  7.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 25.0
+C threshold: 100.0
+[[9. 4.]
+ [3. 6.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 5.0
+[[18.  8.]
+ [ 7. 16.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 10.0
+[[20.  7.]
+ [ 6. 15.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 15.0
+[[16.  7.]
+ [ 6. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 20.0
+[[14.  7.]
+ [ 6. 13.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 25.0
+[[15.  7.]
+ [ 6. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 30.0
+[[16.  7.]
+ [ 6. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 35.0
+[[16.  7.]
+ [ 6. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 40.0
+[[15.  7.]
+ [ 6. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 45.0
+[[17.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 50.0
+[[17.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 55.0
+[[17.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 60.0
+[[17.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 65.0
+[[18.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 70.0
+[[18.  4.]
+ [ 3. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 75.0
+[[15.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 80.0
+[[16.  4.]
+ [ 3.  7.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 85.0
+[[15.  4.]
+ [ 3.  7.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 90.0
+[[13.  4.]
+ [ 3.  7.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 95.0
+[[11.  4.]
+ [ 3.  7.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 100.0
+[[9. 4.]
+ [3. 6.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 5.0
+[[18.  8.]
+ [ 7. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 10.0
+[[20.  7.]
+ [ 6. 14.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 15.0
+[[16.  7.]
+ [ 6. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 20.0
+[[13.  7.]
+ [ 6. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 25.0
+[[15.  7.]
+ [ 6. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 30.0
+[[16.  7.]
+ [ 6. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 35.0
+[[16.  7.]
+ [ 6. 10.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 40.0
+[[15.  7.]
+ [ 6. 10.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 45.0
+[[17.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 50.0
+[[17.  4.]
+ [ 3. 10.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 55.0
+[[17.  4.]
+ [ 3. 10.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 60.0
+[[16.  4.]
+ [ 3. 10.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 65.0
+[[17.  4.]
+ [ 3. 10.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 70.0
+[[17.  4.]
+ [ 3. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 75.0
+[[14.  4.]
+ [ 3. 10.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+
+T threshold: 35.0
+C threshold: 80.0
+[[14.  4.]
+ [ 3.  6.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 85.0
+[[13.  4.]
+ [ 3.  6.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 90.0
+[[12.  4.]
+ [ 3.  6.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 95.0
+[[10.  4.]
+ [ 3.  6.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 35.0
+C threshold: 100.0
+[[9. 4.]
+ [3. 6.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 5.0
+[[18.  8.]
+ [ 7. 13.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 10.0
+[[20.  7.]
+ [ 6. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 15.0
+[[16.  7.]
+ [ 6. 11.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 20.0
+[[13.  7.]
+ [ 6. 10.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 25.0
+[[14.  7.]
+ [ 6. 10.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 30.0
+[[14.  7.]
+ [ 6. 10.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 35.0
+[[14.  7.]
+ [ 6.  8.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 40.0
+[[13.  7.]
+ [ 6.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 45.0
+[[15.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 50.0
+[[15.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 55.0
+[[15.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 60.0
+[[15.  4.]
+ [ 3.  8.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 65.0
+[[15.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 70.0
+[[15.  4.]
+ [ 3.  9.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 75.0
+[[13.  4.]
+ [ 3.  8.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 80.0
+[[13.  4.]
+ [ 3.  5.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 85.0
+[[12.  4.]
+ [ 3.  5.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 90.0
+[[11.  4.]
+ [ 3.  5.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 95.0
+[[9. 4.]
+ [3. 5.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 40.0
+C threshold: 100.0
+[[8. 4.]
+ [3. 5.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
+T threshold: 45.0
+C threshold: 5.0
+[[17.  8.]
+ [ 7. 12.]]
+Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi
