@@ -805,4 +805,3 @@ T threshold: 45.0
 C threshold: 5.0
 [[17.  8.]
  [ 7. 12.]]
-Processing vid 0 : ./tchakamau\Trnansparentd\45403_10Vpp_7.avi

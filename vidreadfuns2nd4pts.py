@@ -148,8 +148,8 @@ print(filenames)
 num_top_keys = 3
 num_full_keys = 3
 num_tran_keys = 2
-trans_threshes = np.linspace(5, 100, 18)#[30, 40, 50]#[5, 8, 10, 19, 27, 38, 52, 60]
-class_threshes = np.linspace(5, 100, 18)#[15, 22, 30]
+trans_threshes = np.linspace(45, 100, 12)#[30, 40, 50]#[5, 8, 10, 19, 27, 38, 52, 60]
+class_threshes = np.linspace(5, 100, 20)#[15, 22, 30]
 trans_runs = {}
 #trans_fil = 10
 
