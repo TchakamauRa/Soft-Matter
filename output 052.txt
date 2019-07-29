@@ -1,0 +1,199 @@
+Processing vid 0 : ./tchakamau\0.5 2nd\45660_10Vpp_1.avi
+T threshold: 30.0
+C threshold: 22
+[[ 8.  1. 38.]
+ [ 2.  1.  0.]
+ [38.  0.  0.]]
+Processing vid 1 : ./tchakamau\0.5 2nd\45660_10Vpp_10.avi
+T threshold: 30.0
+C threshold: 22
+[[3. 0. 1.]
+ [0. 0. 0.]
+ [2. 0. 4.]]
+Processing vid 2 : ./tchakamau\0.5 2nd\45660_10Vpp_11.avi
+T threshold: 30.0
+C threshold: 22
+[[ 0.  0.  0.]
+ [ 0.  0.  0.]
+ [ 1.  0. 12.]]
+Processing vid 3 : ./tchakamau\0.5 2nd\45660_10Vpp_12.avi
+T threshold: 30.0
+C threshold: 22
+[[ 0.  0.  1.]
+ [ 0.  0.  0.]
+ [ 2.  0. 12.]]
+Processing vid 4 : ./tchakamau\0.5 2nd\45660_10Vpp_13.avi
+T threshold: 30.0
+C threshold: 22
+[[4. 0. 6.]
+ [0. 0. 0.]
+ [7. 0. 2.]]
+Processing vid 5 : ./tchakamau\0.5 2nd\45660_10Vpp_14_bounced.avi
+T threshold: 30.0
+C threshold: 22
+[[1. 0. 0.]
+ [0. 0. 0.]
+ [1. 0. 3.]]
+Processing vid 6 : ./tchakamau\0.5 2nd\45660_10Vpp_15.avi
+T threshold: 30.0
+C threshold: 22
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [1. 0. 7.]]
+Processing vid 7 : ./tchakamau\0.5 2nd\45660_10Vpp_2.avi
+T threshold: 30.0
+C threshold: 22
+[[56.  0.  1.]
+ [ 0.  0.  0.]
+ [ 2.  0.  6.]]
+Processing vid 8 : ./tchakamau\0.5 2nd\45660_10Vpp_3.avi
+T threshold: 30.0
+C threshold: 22
+[[ 1.  0.  1.]
+ [ 0.  0.  0.]
+ [ 0.  0. 26.]]
+Processing vid 9 : ./tchakamau\0.5 2nd\45660_10Vpp_4_bounced.avi
+T threshold: 30.0
+C threshold: 22
+[[25.  0.  1.]
+ [ 0.  0.  0.]
+ [ 1.  0. 59.]]
+Processing vid 10 : ./tchakamau\0.5 2nd\45660_10Vpp_6.avi
+T threshold: 30.0
+C threshold: 22
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+Processing vid 11 : ./tchakamau\0.5 2nd\45660_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 22
+[[1. 0. 1.]
+ [0. 0. 0.]
+ [1. 0. 2.]]
+Processing vid 12 : ./tchakamau\0.5 2nd\45660_10Vpp_8.avi
+T threshold: 30.0
+C threshold: 22
+[[1. 0. 0.]
+ [0. 0. 0.]
+ [1. 0. 3.]]
+Processing vid 13 : ./tchakamau\0.5 2nd\45660_10Vpp_9.avi
+T threshold: 30.0
+C threshold: 22
+[[0. 0. 1.]
+ [0. 0. 0.]
+ [2. 0. 1.]]
+Processing vid 0 : ./tchakamau\0.5 2nd\45660_10Vpp_1.avi
+T threshold: 30.0
+C threshold: 35
+[[11.  1. 20.]
+ [ 2.  1.  0.]
+ [20.  0.  0.]]
+Processing vid 1 : ./tchakamau\0.5 2nd\45660_10Vpp_10.avi
+T threshold: 30.0
+C threshold: 35
+[[3. 0. 1.]
+ [0. 0. 0.]
+ [2. 0. 5.]]
+Processing vid 2 : ./tchakamau\0.5 2nd\45660_10Vpp_11.avi
+T threshold: 30.0
+C threshold: 35
+[[ 0.  0.  0.]
+ [ 0.  0.  0.]
+ [ 1.  0. 19.]]
+Processing vid 3 : ./tchakamau\0.5 2nd\45660_10Vpp_12.avi
+T threshold: 30.0
+C threshold: 35
+[[ 0.  0.  0.]
+ [ 0.  0.  0.]
+ [ 1.  0. 20.]]
+Processing vid 4 : ./tchakamau\0.5 2nd\45660_10Vpp_13.avi
+T threshold: 30.0
+C threshold: 35
+[[3. 0. 3.]
+ [0. 0. 0.]
+ [4. 0. 2.]]
+Processing vid 5 : ./tchakamau\0.5 2nd\45660_10Vpp_14_bounced.avi
+T threshold: 30.0
+C threshold: 35
+[[1. 0. 0.]
+ [0. 0. 0.]
+ [1. 0. 3.]]
+Processing vid 6 : ./tchakamau\0.5 2nd\45660_10Vpp_15.avi
+T threshold: 30.0
+C threshold: 35
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [1. 0. 7.]]
+Processing vid 7 : ./tchakamau\0.5 2nd\45660_10Vpp_2.avi
+T threshold: 30.0
+C threshold: 35
+[[52.  0.  1.]
+ [ 0.  0.  0.]
+ [ 2.  0.  6.]]
+Processing vid 8 : ./tchakamau\0.5 2nd\45660_10Vpp_3.avi
+T threshold: 30.0
+C threshold: 35
+[[ 0.  0.  1.]
+ [ 0.  0.  0.]
+ [ 0.  0. 21.]]
+Processing vid 9 : ./tchakamau\0.5 2nd\45660_10Vpp_4_bounced.avi
+T threshold: 30.0
+C threshold: 35
+[[19.  0.  1.]
+ [ 0.  0.  0.]
+ [ 1.  0. 52.]]
+Processing vid 10 : ./tchakamau\0.5 2nd\45660_10Vpp_6.avi
+T threshold: 30.0
+C threshold: 35
+[[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+Processing vid 11 : ./tchakamau\0.5 2nd\45660_10Vpp_7.avi
+T threshold: 30.0
+C threshold: 35
+[[1. 0. 1.]
+ [0. 0. 0.]
+ [1. 0. 4.]]
+Processing vid 12 : ./tchakamau\0.5 2nd\45660_10Vpp_8.avi
+T threshold: 30.0
+C threshold: 35
+[[ 2.  0.  0.]
+ [ 0.  0.  0.]
+ [ 1.  0. 11.]]
+Processing vid 13 : ./tchakamau\0.5 2nd\45660_10Vpp_9.avi
+T threshold: 30.0
+C threshold: 35
+[[0. 0. 1.]
+ [0. 0. 0.]
+ [2. 0. 1.]]
+Processing vid 0 : ./tchakamau\0.5 2nd\45660_10Vpp_1.avi
+T threshold: 34.57142857142857
+C threshold: 22
+[[ 7.  1. 38.]
+ [ 2.  0.  0.]
+ [38.  0.  0.]]
+Processing vid 1 : ./tchakamau\0.5 2nd\45660_10Vpp_10.avi
+T threshold: 34.57142857142857
+C threshold: 22
+[[3. 0. 1.]
+ [0. 0. 0.]
+ [2. 0. 3.]]
+Processing vid 2 : ./tchakamau\0.5 2nd\45660_10Vpp_11.avi
+T threshold: 34.57142857142857
+C threshold: 22
+[[ 0.  0.  0.]
+ [ 0.  0.  0.]
+ [ 1.  0. 11.]]
+Processing vid 3 : ./tchakamau\0.5 2nd\45660_10Vpp_12.avi
+T threshold: 34.57142857142857
+C threshold: 22
+[[ 0.  0.  1.]
+ [ 0.  0.  0.]
+ [ 2.  0. 10.]]
+Processing vid 4 : ./tchakamau\0.5 2nd\45660_10Vpp_13.avi
+T threshold: 34.57142857142857
+C threshold: 22
+[[3. 0. 6.]
+ [0. 0. 0.]
+ [7. 0. 2.]]
+Processing vid 5 : ./tchakamau\0.5 2nd\45660_10Vpp_14_bounced.avi
