@@ -1,0 +1,168 @@
+Processing vid 0 : ./tchakamau\Washed15vplastic\45659_15Vpp_7.avi
+T threshold: 20.0
+C threshold: 15
+[[13.  0.]
+ [ 1.  0.]]
+[[[71215.     0.]
+  [ 8444.     0.]]
+
+ [[63310.     0.]
+  [ 3820.     0.]]
+
+ [[ 7905.     0.]
+  [ 4624.     0.]]]
+[43575.  3551. 21540.]
+Processing vid 1 : ./tchakamau\Washed15vplastic\45660_15Vpp_3.avi
+T threshold: 20.0
+C threshold: 15
+[[10.  2.]
+ [ 1.  0.]]
+[[[7031.  501.]
+  [2045.    0.]]
+
+ [[4291.  178.]
+  [1834.    0.]]
+
+ [[2740.  323.]
+  [ 211.    0.]]]
+[3189. 1814. 1819.]
+Processing vid 2 : ./tchakamau\Washed15vplastic\45660_15Vpp_4.avi
+T threshold: 20.0
+C threshold: 15
+[[5. 8.]
+ [8. 4.]]
+[[[8876. 5509.]
+  [6731. 3706.]]
+
+ [[7962. 3410.]
+  [3467. 2589.]]
+
+ [[ 914. 2099.]
+  [3264. 1117.]]]
+[8795. 6040. 4063.]
+Processing vid 3 : ./tchakamau\Washed15vplastic\45660_15Vpp_5_separate.avi
+T threshold: 20.0
+C threshold: 15
+[[3. 1.]
+ [0. 0.]]
+[[[41681.  3077.]
+  [    0.     0.]]
+
+ [[ 8977.  1558.]
+  [    0.     0.]]
+
+ [[32704.  1519.]
+  [    0.     0.]]]
+[7131.  645. 3818.]
+Processing vid 4 : ./tchakamau\Washed15vplastic\45660_15Vpp_6.avi
+T threshold: 20.0
+C threshold: 15
+[[7. 1.]
+ [1. 0.]]
+[[[20915.  4123.]
+  [  715.     0.]]
+
+ [[ 4508.  3571.]
+  [  425.     0.]]
+
+ [[16407.   552.]
+  [  290.     0.]]]
+[5877.  448. 2733.]
+Processing vid 5 : ./tchakamau\Washed15vplastic\45661_15Vpp_11.avi
+T threshold: 20.0
+C threshold: 15
+[[6. 1.]
+ [1. 0.]]
+[[[4081. 3795.]
+  [ 381.    0.]]
+
+ [[1648. 3446.]
+  [ 113.    0.]]
+
+ [[2433.  349.]
+  [ 268.    0.]]]
+[4224.  141. 1314.]
+Processing vid 6 : ./tchakamau\Washed15vplastic\45661_15Vpp_18.avi
+T threshold: 20.0
+C threshold: 15
+[[17.  4.]
+ [ 3.  3.]]
+[[[5191. 3062.]
+  [1845. 2249.]]
+
+ [[2054. 2085.]
+  [ 520. 1357.]]
+
+ [[3137.  977.]
+  [1325.  892.]]]
+[4012. 2082. 2666.]
+Processing vid 7 : ./tchakamau\Washed15vplastic\45661_15Vpp_8.avi
+T threshold: 20.0
+C threshold: 15
+[[1. 1.]
+ [0. 0.]]
+[[[6264. 3564.]
+  [   0.    0.]]
+
+ [[2912. 1594.]
+  [   0.    0.]]
+
+ [[3352. 1970.]
+  [   0.    0.]]]
+[2806.  299. 1837.]
+Processing vid 8 : ./tchakamau\Washed15vplastic\45688_15Vpp_12.avi
+T threshold: 20.0
+C threshold: 15
+[[1. 0.]
+ [0. 0.]]
+[[[20011.     0.]
+  [    0.     0.]]
+
+ [[18831.     0.]
+  [    0.     0.]]
+
+ [[ 1180.     0.]
+  [    0.     0.]]]
+[12972.     0.  6079.]
+Processing vid 9 : ./tchakamau\Washed15vplastic\45697_15Vpp_15.avi
+T threshold: 20.0
+C threshold: 15
+[[3. 1.]
+ [2. 2.]]
+[[[1812. 2048.]
+  [1129. 9164.]]
+
+ [[  64.  202.]
+  [ 551. 8125.]]
+
+ [[1748. 1846.]
+  [ 578. 1039.]]]
+[ 506. 8568.  473.]
+Processing vid 10 : ./tchakamau\Washed15vplastic\45697_15Vpp_16.avi
+T threshold: 20.0
+C threshold: 15
+[[4. 1.]
+ [1. 0.]]
+[[[2611.  720.]
+  [ 446.    0.]]
+
+ [[1316.  169.]
+  [ 371.    0.]]
+
+ [[1295.  551.]
+  [  75.    0.]]]
+[1586.  420.  556.]
+Processing vid 11 : ./tchakamau\Washed15vplastic\45697_15Vpp_17.avi
+T threshold: 20.0
+C threshold: 15
+[[4. 2.]
+ [2. 2.]]
+[[[6199.  304.]
+  [ 531. 1526.]]
+
+ [[3998.  205.]
+  [ 416.  987.]]
+
+ [[2201.   99.]
+  [ 115.  539.]]]
+[3161. 1441. 1742.]

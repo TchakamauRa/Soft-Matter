@@ -1,0 +1,3059 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Zotero Report</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9Cg==">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_R46RUIZM" class="item journalArticle">
+			<h2>A semi-quantitative tribo-electric series for polymeric materials: the influence of chemical structure and properties</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>A. F. Diaz</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>R. M. Felix-Navarro</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.sciencedirect.com/science/article/pii/S0304388604001287">http://www.sciencedirect.com/science/article/pii/S0304388604001287</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>62</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>277-290</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Journal of Electrostatics</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0304-3886</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>November 1, 2004</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Journal of Electrostatics</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.elstat.2004.05.005">10.1016/j.elstat.2004.05.005</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 4:30:17 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ScienceDirect</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>A semi-quantitative tribo-charging series that includes a wide
+ range of synthetic and natural polymers was constructed by combining 
+four qualitative triboelectric series from literature reports plus 
+quantitative charging results with metal contacts. This not only 
+connects the results from different laboratories but it also provides a 
+series with a wide variety of polymeric materials which can be used to 
+estimate their relative charging capacity. The ordering of the polymers 
+in the series suggests that the charging develops from the transfer of 
+protons between the contacting surfaces.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>A semi-quantitative tribo-electric series for polymeric materials</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 4:30:17 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 4:30:17 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Contact charging</li>
+					<li>Contact electrification</li>
+					<li>Triboelectric series</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_ZDXJ8RLJ">
+<div><p>Tribo series with polyethylene in it</p>
+<p>&nbsp;</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_KA6AFDEG">ScienceDirect Full Text PDF					</li>
+					<li id="item_L94YMXT9">ScienceDirect Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_JSTHJKER" class="item journalArticle">
+			<h2>A simple two-dimensional model system to study electrostatic-self-assembly</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Rebecca Cademartiri</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Claudiu A.&nbsp;Stan</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vivian M.&nbsp;Tran</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Evan Wu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Liam Friar</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Daryl Vulis</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Logan W.&nbsp;Clark</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Simon Tricard</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>George M.&nbsp;Whitesides</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://pubs.rsc.org/en/content/articlelanding/2012/sm/c2sm26192h">https://pubs.rsc.org/en/content/articlelanding/2012/sm/c2sm26192h</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>38</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>9771-9791</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Soft Matter</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2012</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1039/C2SM26192H">10.1039/C2SM26192H</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 5:02:20 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>pubs.rsc.org</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 5:02:20 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 5:02:20 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_FH8UVECL">
+<p class="plaintext"></p>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_CMDEC5FP">Full Text PDF					</li>
+					<li id="item_MIINNJE6">Snapshot					</li>
+				</ul>
+				<h3 class="related">Related</h3>
+				<ul class="related">
+					<li id="item_CSWPGXF7">Electrostatic self-assembly of macroscopic crystals using contact electrification</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2VHNVG46" class="item journalArticle">
+			<h2>A standing wave acoustic levitation system for large planar objects</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Su Zhao</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jörg Wallaschek</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1007/s00419-009-0401-3">https://doi.org/10.1007/s00419-009-0401-3</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>81</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>123-139</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Archive of Applied Mechanics</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1432-0681</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2011-02-01</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Arch Appl Mech</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1007/s00419-009-0401-3">10.1007/s00419-009-0401-3</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/26/2019, 3:28:38 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Springer Link</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>An acoustic levitation system is presented which can levitate 
+planar objects that are much larger than the wavelength of the applied 
+acoustic wave. It uses standing wave field formed by the sound radiator 
+and the levitated planar object. An experimental setup is developed, by 
+which a compact disc is successfully levitated at frequency of 19 kHz 
+and input power of 40 W. The sound field is modeled according to 
+acoustic theory. The mean excess pressure experienced by the levitated 
+object is calculated and compared with experiment results. The 
+influences of the nonlinear effects within the acoustic near-field are 
+discussed. Nonlinear absorption coefficient is introduced into the 
+linear model to give a more precise description of the system. The 
+levitation force is calculated for different levitation distances and 
+driving frequencies. The calculation results show acceptable agreement 
+with the measurement results.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/26/2019, 3:28:38 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/26/2019, 3:28:38 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Acoustic levitation</li>
+					<li>Acoustic radiation pressure</li>
+					<li>Standing wave</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_MZPAN5LW">
+<div><ul>
+<li>Has derivation of the pressure from a plane (not standing necessarily) wave in air as fn of distance from the source</li>
+<li>&nbsp;</li>
+</ul></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_AKCXPYIJ">Springer Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ZL7B666F" class="item journalArticle">
+			<h2>A theory of interactions between polarizable dielectric spheres</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jian Qin</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jiyuan Li</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Victor Lee</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Heinrich Jaeger</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Juan J. de Pablo</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Karl F. Freed</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.sciencedirect.com/science/article/pii/S0021979716301138">http://www.sciencedirect.com/science/article/pii/S0021979716301138</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>469</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>237-241</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Journal of Colloid and Interface Science</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0021-9797</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>May 1, 2016</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Journal of Colloid and Interface Science</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.jcis.2016.02.033">10.1016/j.jcis.2016.02.033</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/3/2019, 3:57:36 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ScienceDirect</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Surface charging or polarization can strongly affect the 
+nature of interactions between charged dielectric objects, particularly 
+when sharp dielectric discontinuities are involved. By relying on a 
+generalized image method, we derive an analytical, perturbative theory 
+of the polarization and the interactions between charged particles in 
+many-body systems. The validity and accuracy of the theory are 
+established by comparing its predictions to full-blown numerical 
+solutions. The importance of polarizability is then demonstrated for 
+clusters of dielectric spheres, as well as a periodic crystal of charged
+ dielectric spheres arranged into a NaCl-type lattice. The analytical 
+framework for understanding the consequences of polarization will enable
+ molecular simulations of large systems of polarizable particles.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/3/2019, 3:57:36 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/3/2019, 3:57:36 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Dielectrics</li>
+					<li>Image method</li>
+					<li>Particulate aggregate</li>
+					<li>Polarization</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_8M43ILWK">
+<div><ul>
+<li>Has the idea that an induced charge can be strong enough to attract 
+two similarly charged objects if one has even a small amount more charge
+ than the other, if the dielectric constant of the material is much 
+higher than that of air</li>
+<li>Has generally a discussion of induced charge</li>
+</ul></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_VES4C9NQ">ScienceDirect Full Text PDF					</li>
+					<li id="item_GSJSAC6N">ScienceDirect Snapshot					</li>
+				</ul>
+				<h3 class="related">Related</h3>
+				<ul class="related">
+					<li id="item_M4K3QZZQ">Mechanical equilibrium of aggregates of dielectric spheres</li>
+				</ul>
+			</li>
+
+
+			<li id="item_WTBE5MXC" class="item journalArticle">
+			<h2>Acoustic field positioning for containerless processing</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>R. R. Whymark</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.sciencedirect.com/science/article/pii/0041624X75900724">http://www.sciencedirect.com/science/article/pii/0041624X75900724</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>13</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>6</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>251-261</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Ultrasonics</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0041-624X</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>November 1, 1975</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Ultrasonics</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/0041-624X(75)90072-4">10.1016/0041-624X(75)90072-4</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/26/2019, 1:25:30 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ScienceDirect</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The non-contact positioning of materials in a space processing
+ chamber is accomplished using a new type of acoustic levitator. Liquid 
+and solid materials are positioned using a single source of sound. Fine 
+control of position may be obtained by motion of an acoustical 
+reflector. The electrical power required is usually less than 100 watts.
+ The system operates satisfactorily at high and low temperatures and is 
+adaptable as an “add-on” feature to existing space experiments. 
+Containerless melting and solidification can be performed and a freely 
+suspended liquid can be shaped to the contour of the sound field. 
+Experiments are described in which aluminium, glass and plastic 
+materials are melted and solidified in the containerless state. The 
+system has applications to containerless crystal growth, melting and 
+related processes.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/26/2019, 1:25:30 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/26/2019, 1:25:30 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_5MG9FF6D">
+<div><p>Early proof of concept that acoustic levitation works</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_KD5B7F89">ScienceDirect Full Text PDF					</li>
+					<li id="item_LHSP6IAG">ScienceDirect Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_SZIDVZI7" class="item journalArticle">
+			<h2>Acoustofluidics 7: The acoustic radiation force on small particles</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Henrik Bruus</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://pubs.rsc.org/en/content/articlelanding/2012/lc/c2lc21068a">https://pubs.rsc.org/en/content/articlelanding/2012/lc/c2lc21068a</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>6</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1014-1021</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Lab on a Chip</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1473-0189</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2012-02-21</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Lab Chip</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1039/C2LC21068A">10.1039/C2LC21068A</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 4:35:52 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>pubs.rsc.org</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>In this paper, Part 7 of the thematic tutorial series 
+“Acoustofluidics – exploiting ultrasonic standing waves, forces and 
+acoustic streaming in microfluidic systems for cell and particle 
+manipulation ”, we present the theory of the acoustic radiation force; a
+ second-order, time-averaged effect responsible for the acoustophoretic 
+motion of suspended, micrometre-sized particles in an ultrasound field.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Acoustofluidics 7</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 4:35:52 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 4:35:52 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_SFAQCXXB">Full Text PDF					</li>
+					<li id="item_22TTH55L">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_RSLVM5QY" class="item journalArticle">
+			<h2>Acoustokinetics: Crafting force landscapes from sound waves</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mohammed A. Abdelaziz</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>David G. Grier</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://arxiv.org/abs/1910.03670">http://arxiv.org/abs/1910.03670</a></td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>arXiv:1910.03670 [cond-mat, physics:physics]</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019-10-08</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>arXiv: 1910.03670</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/10/2019, 2:49:46 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>arXiv.org</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Factoring the pressure field of a harmonic sound wave into its
+ amplitude and phase profiles provides the foundation for an analytical 
+framework for studying acoustic forces that not only provides novel 
+insights into the forces exerted by specified sound waves, but also 
+addresses the inverse problem of designing sound waves to implement 
+desired force landscapes. We illustrate the benefits of this 
+acoustokinetic framework through case studies of purely nonconservative 
+force fields, standing waves, pseudo-standing waves, and tractor beams.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Acoustokinetics</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/10/2019, 2:49:46 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/10/2019, 2:49:46 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Condensed Matter - Soft Condensed Matter</li>
+					<li>Physics - Classical Physics</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_CUJTEZZY">
+<div><p>On:</p>
+<p>- designing sound waves to get the acoustic field you want</p>
+<p>- studying amplitude and phase separately to understand the radiation force</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_KZWA62V9">arXiv:1910.03670 PDF					</li>
+					<li id="item_KCPMV6GV">arXiv.org Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_Z8GZ32MJ" class="item journalArticle">
+			<h2>Acoustophoresis of disk-shaped microparticles: A numerical and experimental study of acoustic radiation forces and torques</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Alexander Garbin</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ivo Leibacher</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Philipp Hahn</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Hortense Le Ferrand</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>André Studart</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jürg Dual</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://asa.scitation.org/doi/10.1121/1.4932589">https://asa.scitation.org/doi/10.1121/1.4932589</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>138</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>2759-2769</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>The Journal of the Acoustical Society of America</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0001-4966</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>November 1, 2015</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>The Journal of the Acoustical Society of America</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1121/1.4932589">10.1121/1.4932589</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/28/2019, 11:33:11 AM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>asa.scitation.org (Atypon)</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Disk-shaped microparticles experience an acoustic radiation 
+force and torque in an ultrasonic standing wave. Hence, they are 
+translated by the acoustic field, an effect called acoustophoresis, and 
+rotated. The torque effect is also known from the “Rayleigh disk” which 
+is described in literature for sound intensity measurements. In this 
+paper, inviscid numerical simulations of acoustic radiation forces and 
+torques for disks with radius ≪ wavelength in water are developed in 
+good agreement with former analytical solutions, and the dependence on 
+disk geometry, density, and orientation is discussed. Experiments with 
+alumina disks (diameter 7.5 μm), suspended in an aqueous liquid in a 
+silicon microchannel, confirm the theoretical results qualitatively at 
+the microscale and ultrasonic frequencies around 2 MHz. These results 
+can potentially be applied for the synthesis of disk-reinforced 
+composite materials. The insights are also relevant for the acoustic 
+handling of various disk-shaped particles, such as red blood cells.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Acoustophoresis of disk-shaped microparticles</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/28/2019, 11:33:11 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/28/2019, 11:33:11 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_G2ZUPB2F">Full Text PDF					</li>
+					<li id="item_Z9IWRJZJ">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_SQW4JRA5" class="item journalArticle">
+			<h2>Cluster formation by acoustic forces and active fluctuations in levitated granular matter</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Melody X. Lim</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Anton Souslov</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vincenzo Vitelli</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Heinrich M. Jaeger</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.nature.com/articles/s41567-019-0440-9">https://www.nature.com/articles/s41567-019-0440-9</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>2019 The Author(s), under exclusive licence to Springer Nature Limited</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>15</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>460-464</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Nature Physics</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1745-2481</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019/05</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Nat. Phys.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/s41567-019-0440-9">10.1038/s41567-019-0440-9</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/26/2019, 5:20:21 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>www.nature.com</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Acoustically levitated granular particles offer a platform on 
+which to study self-assembly in a macroscopic system. Precise acoustic 
+tuning reveals how cluster statistics and assembly pathways change as 
+the system moves out of equilibrium.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/26/2019, 5:20:21 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/26/2019, 5:20:21 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_J64LCSNV">Full Text PDF					</li>
+					<li id="item_GTU7X6FY">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_XPE4MJRQ" class="item journalArticle">
+			<h2>Collisional charging of individual submillimeter particles: Using ultrasonic levitation to initiate and track charge transfer</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Victor Lee</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nicole M. James</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Scott R. Waitukaitis</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Heinrich M. Jaeger</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://link.aps.org/doi/10.1103/PhysRevMaterials.2.035602">https://link.aps.org/doi/10.1103/PhysRevMaterials.2.035602</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>035602</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Physical Review Materials</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>March 29, 2018</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Phys. Rev. Materials</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1103/PhysRevMaterials.2.035602">10.1103/PhysRevMaterials.2.035602</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 4:32:03 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>APS</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Electrostatic charging of insulating fine particles can be 
+responsible for numerous phenomena ranging from lightning in volcanic 
+plumes to dust explosions. However, even basic aspects of how fine 
+particles become charged are still unclear. Studying particle charging 
+is challenging because it usually involves the complexities associated 
+with many-particle collisions. To address these issues, we introduce a 
+method based on acoustic levitation, which makes it possible to initiate
+ sequences of repeated collisions of a single submillimeter particle 
+with a flat plate, and to precisely measure the particle charge in situ 
+after each collision. We show that collisional charge transfer between 
+insulators is dependent on the hydrophobicity of the contacting 
+surfaces. We use glass, which we modify by attaching nonpolar molecules 
+to the particle, the plate, or both. We find that hydrophilic surfaces 
+develop significant positive charges after contacting hydrophobic 
+surfaces. Moreover, we demonstrate that charging between a hydrophilic 
+and a hydrophobic surface is suppressed in an acidic environment and 
+enhanced in a basic one. Application of an electric field during each 
+collision is found to modify the charge transfer, again depending on 
+surface hydrophobicity. We discuss these results within the context of 
+contact charging due to ion transfer, and we show that they lend strong 
+support to OH− ions as the charge carriers.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Collisional charging of individual submillimeter particles</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 4:32:03 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 4:32:03 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_IQRJJNK9">
+<div><p>Water helps transfer charge</p>
+<p>&nbsp;</p>
+<p>This is especially so when materials are in an electric field that 
+can separate the charges in the water while two surfaces are joined</p>
+<p>&nbsp;</p>
+<p>The atmosphere (through acidity) affects how much charge gets transferred</p>
+<p>&nbsp;</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_MP72GR4K">APS Snapshot					</li>
+					<li id="item_BGJHTUL3">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_NKZ5NTUG" class="item journalArticle">
+			<h2>Contact Electrification between Identical Materials</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mario M. Apodaca</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Paul J. Wesson</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Kyle J. M. Bishop</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mark A. Ratner</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bartosz A. Grzybowski</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.200905281">https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.200905281</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>Copyright © 2010 WILEY‐VCH Verlag GmbH &amp; Co. KGaA, Weinheim</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>49</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>946-949</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Angewandte Chemie International Edition</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1521-3773</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2010</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1002/anie.200905281">10.1002/anie.200905281</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/3/2019, 3:20:57 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Wiley Online Library</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Ch-ch-ch-charges: Pieces of identical, atomically flat 
+insulators separate a charge Q when brought into contact and then 
+parted. Repeated contacts cause the magnitudes of the separated charges 
+to increase monotonically (see picture). A theoretical model is 
+presented that explains these phenomena by the inherent, molecular-scale
+ fluctuations in the composition of the seemingly identical contacting 
+surfaces.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/3/2019, 3:20:57 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/3/2019, 3:20:57 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>charge transfer</li>
+					<li>contact electrification</li>
+					<li>electrostatics</li>
+					<li>materials science</li>
+					<li>surface chemistry</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_4PIZ5Q4A">
+<div><p>Contact charging on insulators can be mediated by ions, which 
+are mobile, and surface irregularities which lead to accepting and 
+donating regions on either surface which can match up on contact</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_VGGACR3T">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UIPHHFGQ" class="item bookSection">
+			<h2>Containerless Processing Technology</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>R. J. Naumann</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>D. D. Elleman</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Berndt Feuerbacher</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Hans Hamacher</td>
+					</tr>
+					<tr>
+						<th class="editor">Editor</th>
+						<td>Robert J. Naumann</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1007/978-3-642-82761-7_12">https://doi.org/10.1007/978-3-642-82761-7_12</a></td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Berlin, Heidelberg</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Springer Berlin Heidelberg</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>294-313</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-3-642-82761-7</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1986</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.1007/978-3-642-82761-7_12</td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/26/2019, 1:26:33 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Springer Link</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>SummaryThe virtual absence of hydrostatic pressure in a 
+microgravity environment allows liquids to be confined solely by their 
+surface tension and offers the possibility of melting and solidifying 
+materials without physical contact. This “containerless processing” 
+eliminates contaminants that may be introduced by the container or 
+crucible and may be used to obtain ultrapure materials. This is 
+especially important for systems that are highly corrosive in the melt. 
+Elimination of container-induced nucleation also permits melts to be 
+deeply undercooled before solidification. This offers the possibility of
+ studying homogeneous nucleation and solidification in undercooled 
+melts. Such solidification can be extremely rapid and may produce unique
+ microstructures including metastable or amorphous phases in metals. The
+ range of glass formation may be extended in borderline glass forming 
+systems, which may result in new glasses with unusual properties. Since 
+such glasses are formed from melts confined only by surface tension, 
+they will have perfectly spherical pristine surfaces, undamaged by 
+grinding or other shaping processes. It may also be possible to 
+manipulate the melt to form aspherical shapes, or to draw optical fibers
+ from a containerless melt.The dynamics of drops and bubbles may also be
+ studied using containerless techniques. Detailed photographs of 
+droplets merging were obtained in a simple demonstration on Skylab. The 
+drop dynamics module on Spacelab 3 is dedicated to a more elaborate set 
+of experiments to study the vibrational and rotational behavior of 
+liquid droplets. The centering forces on a bubble suspended in a droplet
+ have also been investigated in a variety of low-gravity experiments to 
+the point where the role of droplet oscillations are understood well 
+enough to permit the routine formation of thin-walled spherical shells 
+up to a few millimeters in diameter that have a high degree of 
+concentricity. Such shells have been used for fuel containment in 
+inertially confined fusion experiments [1] and are also finding a 
+variety of other uses. Finally, the ability to suspend a high 
+temperature melt without physical contact is useful for measurement of 
+high temperature thermophysical properties. Techniques hate been 
+developed for independent measurement of emissivity as a function lof 
+temperature which permits the determination of heat capacity, enthalpy, 
+heat of fusion, etc. for metals such as W, Mo, Nb, and other refractory 
+materials. [2] Surface tension and viscosity may also be determined 
+without physical contact in low to moderate viscosity samples by 
+inducing oscillations in the melt and observing their period and decay, 
+or in high viscosity material by rotating of the sample and measuring 
+the distortion that results. [3]There are a variety of techniques for 
+containerless processing that can be used to some degree in Earth’s 
+gravity. These techniques consist of suspending or levitating a specimen
+ using non-contacting forces such as gas pressure from an acoustic field
+ or air stream, or electric forces from an electrostatic or 
+electromagnetic field. Such techniques are limited to small samples in 
+Earth’s gravity because the hydrostatic pressure must be confined by 
+surface tension, and distortions from sphericity are unavoidable. Also, 
+the heating and cooling of the sample is generally not independent of 
+the levitation process. Free-fall facilities such as Marshall Space 
+Flight Center’s (MSFC) drop tube and Jet Propulsion Laboratory’s (JPL) 
+aerodynamic drop facility avoid this difficulty, but the limited 
+free-fall distance restricts the sample to a size that can be solidified
+ in the time available. Nevertheless, these techniques have produced 
+much valuable information on containerless processing technology and 
+serve as an indispensible adjunct to microgravity experiments for 
+testing new concepts, screening prospective sample materials, and 
+developing experimental protocol.The use of the microgravity environment
+ of an orbiting vehicle extends the free-fall time more or less 
+indefinitely and allows much larger samples to be processed as well as 
+close observation and manipulation of the sample during processing. 
+However, the small residual accelerations in an orbiting vehicle require
+ the use of some form of non-contacting positioning force, similar to 
+that used to levitate samples in Earth’s gravity, to hold the sample in 
+the confines of its processing chamber for extended periods of time.The 
+techniques and facilities for containerless processing, both in space 
+and on Earth, will be described in the remainder of this chapter.</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>Materials Sciences in Space: A Contribution to the Scientific Basis of Space Processing</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/26/2019, 1:26:33 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/26/2019, 1:26:33 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Acoustic Field</li>
+					<li>Coil Design</li>
+					<li>Drop Tube</li>
+					<li>Levitation Force</li>
+					<li>Pressure Node</li>
+				</ul>
+			</li>
+
+
+			<li id="item_V2HM833K" class="item journalArticle">
+			<h2>Direct observation of particle interactions and clustering in charged granular streams</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Victor Lee</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Scott R. Waitukaitis</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Marc Z. Miskin</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Heinrich M. Jaeger</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.nature.com/articles/nphys3396">https://www.nature.com/articles/nphys3396</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>2015 Nature Publishing Group</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>733-737</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Nature Physics</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1745-2481</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2015-09</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/nphys3396">10.1038/nphys3396</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 4:31:30 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>www.nature.com</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Clustering of fine particles is of crucial importance in 
+settings ranging from the early stages of planet formation1,2,3 to the 
+coagulation of industrial powders and airborne pollutants4,5,6,7. Models
+ of such clustering typically focus on inelastic deformation and 
+cohesion1,4,6,8. However, even in charge-neutral particle systems 
+comprising grains of the same dielectric material, tribocharging can 
+generate large amounts of net positive or negative charge on individual 
+particles, resulting in long-range electrostatic forces9,10,11. The 
+effects of such forces on cluster formation are not well understood and 
+have so far not been studied in situ. Here we report the first 
+observations of individual collide-and-capture events between charged 
+submillimetre particles, including Kepler-like orbits. Charged particles
+ can become trapped in their mutual electrostatic energy well and 
+aggregate via multiple bounces. This enables the initiation of 
+clustering at relative velocities much larger than the upper limit for 
+sticking after a head-on collision, a long-standing issue known from 
+pre-planetary dust aggregation1,12. Moreover, Coulomb interactions 
+together with dielectric polarization are found to stabilize 
+characteristic molecule-like configurations, providing new insights for 
+the modelling of clustering dynamics in a wide range of microscopic 
+dielectric systems, such as charged polarizable ions, biomolecules and 
+colloids13,14,15,16.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 4:31:30 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 4:31:30 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_CNX3QTZV">
+<div><p>Particles can aggregate at velocities too high for them to stick
+ together usually if they are charged enough to form an electric 
+potential well which is used as an attractor for the incoming particles</p>
+<p>Polarization holds high dielectric constant particles together stably when only some are charged</p>
+<p>Particles spend the time in between collisions (provided they don't 
+escape) traveling elliptical orbits, and bounces between orbit periods 
+dissipates kinetic energy, allowing particles to cluster, especially 
+when N_cluster &gt; 2</p>
+<p>Particle charging (when of same material) is proportional to area and
+ can be bimodal (around 0) if the particles are of different sizes 
+(specifically, bidisperse)</p>
+<p>&nbsp;</p>
+<p>Larger grains become more charged (+ve or -v, depending on charging 
+direction), so size matters nt only for the volume scaling -&gt; so size
+ alone can eplain a factor 5 in bonding strength, if one particle is on 
+average larger, and this one charges more greatly (amongst itself or its
+ counterpart), on average. For this to work, charging has to be 
+primarily across particle types, which is where size would play a role 
+in how much charge I acquired.</p>
+<p>If particle shad been randomly allowed to assemble, it would make 
+sense that highly charged particles tend to cluste many lowly charged 
+ones around them due to their strong attraction, but this is not the 
+case, as aprticles are ha dselected, and after their selection, charge 
+is conserved.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_47K542XU">Full Text PDF					</li>
+					<li id="item_Y3ZT773B">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2PGVRNF6" class="item journalArticle">
+			<h2>Electrostatic electrochemistry: Nylon and polyethylene systems</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Chong-yang Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Allen J. Bard</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://www.sciencedirect.com/science/article/pii/S000926140901522X">http://www.sciencedirect.com/science/article/pii/S000926140901522X</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>485</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>231-234</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Chemical Physics Letters</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0009-2614</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>January 18, 2010</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Chemical Physics Letters</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.cplett.2009.12.009">10.1016/j.cplett.2009.12.009</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 4:30:36 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>ScienceDirect</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Electrostatic charges generated on polymer surfaces by contact
+ electrification e.g. polyethylene (PE) contacted with polyamide 
+(Nylon), are capable of carrying out redox reactions. For example, metal
+ ions such as Pd2+, Ag+, and Cu2+ were reduced, leading to a metal film 
+deposition on the polymer, Fe(CN)63- was reduced to Fe(CN)64-, and 
+chemiluminescence was produced. These results reinforce the electron 
+transfer mechanism of contact electrification and the concept of ‘single
+ electrode electrochemistry’ using PE or Nylon (or PTFE) as the source 
+of charge. From the extent of the redox reactions, one estimates charge 
+densities of up to about 1014/cm2.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Electrostatic electrochemistry</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 4:30:36 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 4:30:36 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_IRS2SKJG">ScienceDirect Full Text PDF					</li>
+					<li id="item_D7U95HH7">ScienceDirect Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CSWPGXF7" class="item journalArticle">
+			<h2>Electrostatic self-assembly of macroscopic crystals using contact electrification</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bartosz A. Grzybowski</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Adam Winkleman</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jason A. Wiles</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yisroel Brumer</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>George M. Whitesides</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.nature.com/articles/nmat860">https://www.nature.com/articles/nmat860</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>2003 Nature Publishing Group</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>241-245</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Nature Materials</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1476-4660</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2003/04</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Nature Mater</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/nmat860">10.1038/nmat860</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 5:02:40 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>www.nature.com</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Self-assembly1,2,3,4 of components larger than molecules into 
+ordered arrays is an efficient way of preparing microstructured 
+materials with interesting mechanical5,6 and optical7,8 properties. 
+Although crystallization of identical particles9,10 or particles of 
+different sizes11 or shapes12 can be readily achieved, the repertoire of
+ methods to assemble binary lattices of particles of the same sizes but 
+with different properties is very limited13,14. This paper describes 
+electrostatic self-assembly15,16,17 of two types of macroscopic 
+components of identical dimensions using interactions that are generated
+ by contact electrification18,19,20. The systems we have examined 
+comprise two kinds of objects (usually spheres) made of different 
+polymeric materials that charge with opposite electrical polarities when
+ agitated on flat, metallic surfaces. The interplay of repulsive 
+interactions between like-charged objects and attractive interactions 
+between unlike-charged ones results in the self-assembly of these 
+objects into highly ordered, closed arrays. Remarkably, some of the 
+assemblies that form are not electroneutral—that is, they possess a net 
+charge. We suggest that the stability of these unusual structures can be
+ explained by accounting for the interactions between electric dipoles 
+that the particles in the aggregates induce in their neighbours.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 5:02:40 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 5:02:40 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_T7GQVP6W">
+<div><div id="1572901066.018600" aria-expanded="false">
+<div data-qa="message_container" data-qa-placeholder="false">
+<div data-qa="message_content">&nbsp;to simulate the hexagonal lattices that they observed, normal electrostatic attraction is insuficient<a href="https://levitationteam.slack.com/archives/DNHT48J0J/p1572901094019300" aria-describedby="slack-kit-tooltip"></a></div>
+</div>
+</div>
+<div id="1572901094.019300" aria-expanded="false">
+<div data-qa="message_container" data-qa-placeholder="false">
+<div data-qa="message_content">as the lattices are not stable then (lattices form hexagonally when one particle type is in excess, or is more strongly charged)<a href="https://levitationteam.slack.com/archives/DNHT48J0J/p1572901103019600" aria-describedby="slack-kit-tooltip"></a></div>
+</div>
+</div>
+<div id="1572901103.019600" aria-expanded="false">
+<div data-qa="message_container" data-qa-placeholder="false">
+<div data-qa="message_content">When they add the dipole interactions<a href="https://levitationteam.slack.com/archives/DNHT48J0J/p1572901175021100" aria-describedby="slack-kit-tooltip"></a></div>
+</div>
+</div>
+<div id="1572901175.021100" aria-expanded="false">
+<div data-qa="message_container" data-qa-placeholder="false">
+<div data-qa="message_content">the strength of unlike bonding is 
+increased, and the strenght of like-like repulsion is decreased, which 
+can explain the movement of the mixed bond to the top of the queue in 
+the charged case, provided only that the 'original' order, without the 
+charges, is p-p &gt; p-g &gt; g-g,</div>
+<div data-qa="message_content">"electrostatic forces scale with surface area, whereas<br>gravitational forces scale with volume"</div>
+</div>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_MZ5VVKXW">Full Text PDF					</li>
+					<li id="item_CCR8SFKB">Snapshot					</li>
+				</ul>
+				<h3 class="related">Related</h3>
+				<ul class="related">
+					<li id="item_JSTHJKER">A simple two-dimensional model system to study electrostatic-self-assembly</li>
+				</ul>
+			</li>
+
+
+			<li id="item_QYM4UE6D" class="item journalArticle">
+			<h2>Evolutionary pattern design for copolymer directed self-assembly</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jian Qin</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gurdaman S. Khaira</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yongrui Su</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Grant P. Garner</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Marc Miskin</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Heinrich M. Jaeger</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Juan J. de Pablo</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://pubs.rsc.org/en/content/articlelanding/2013/sm/c3sm51971f">https://pubs.rsc.org/en/content/articlelanding/2013/sm/c3sm51971f</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>48</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>11467-11472</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Soft Matter</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1744-6848</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2013-11-20</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Soft Matter</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1039/C3SM51971F">10.1039/C3SM51971F</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 5:01:26 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>pubs.rsc.org</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Directed assembly of block polymers is rapidly becoming a 
+viable strategy for lithographic patterning of nanoscopic features. One 
+of the key attributes of directed assembly is that an underlying 
+chemical or topographic substrate pattern used to direct assembly need 
+not exhibit a direct correspondence with the sought after block polymer 
+morphology, and past work has largely relied on trial-and-error 
+approaches to design appropriate patterns. In this work, a computational
+ evolutionary strategy is proposed to solve this optimization problem. 
+By combining the Cahn–Hilliard equation, which is used to find the 
+equilibrium morphology, and the covariance-matrix evolutionary strategy,
+ which is used to optimize the combined outcome of particular 
+substrate–copolymer combinations, we arrive at an efficient method for 
+design of substrates leading to non-trivial, desirable outcomes.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 5:01:26 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 5:01:38 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_QUKLDSKP">Full Text PDF					</li>
+					<li id="item_UEDHKBFW">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_HZFI3USE" class="item journalArticle">
+			<h2>Forces acting on a small particle in an acoustical field in a thermoviscous fluid</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jonas T. Karlsen</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Henrik Bruus</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://link.aps.org/doi/10.1103/PhysRevE.92.043010">https://link.aps.org/doi/10.1103/PhysRevE.92.043010</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>92</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>043010</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Physical Review E</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>October 12, 2015</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Phys. Rev. E</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1103/PhysRevE.92.043010">10.1103/PhysRevE.92.043010</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>1/16/2020, 11:44:38 AM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>APS</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>We present a theoretical analysis of the acoustic radiation 
+force on a single small spherical particle, either a thermoviscous fluid
+ droplet or a thermoelastic solid particle, suspended in a viscous and 
+heat-conducting fluid medium. Within the perturbation assumptions, our 
+analysis places no restrictions on the length scales of the viscous and 
+thermal boundary-layer thicknesses δs and δt relative to the particle 
+radius a, but it assumes the particle to be small in comparison to the 
+acoustic wavelength λ. This is the limit relevant to scattering of 
+ultrasound waves from nanometer- and micrometer-sized particles. For 
+particles of size comparable to or smaller than the boundary layers, the
+ thermoviscous theory leads to profound consequences for the acoustic 
+radiation force. Not only do we predict forces orders of magnitude 
+larger than expected from ideal-fluid theory, but for certain relevant 
+choices of materials, we also find a sign change in the acoustic 
+radiation force on different-sized but otherwise identical particles. 
+These findings lead to the concept of a particle-size-dependent 
+acoustophoretic contrast factor, highly relevant to acoustic separation 
+of microparticles in gases, as well as to handling of nanoparticles in 
+lab-on-a-chip systems.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>1/16/2020, 11:44:38 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>1/16/2020, 11:44:38 AM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_AYWR3J8V">
+<div><p>Force on particle is proportional to the size of it; derivation is within - to the extent f not always staying the same sign</p>
+<p>- incomprehensible otherwise</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_7CCAX4SI">APS Snapshot					</li>
+					<li id="item_K4BYMI4K">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_M4K3QZZQ" class="item journalArticle">
+			<h2>Mechanical equilibrium of aggregates of dielectric spheres</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>A. F. V. Matias</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>T. Shinbrot</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>N. A. M. Araújo</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://link.aps.org/doi/10.1103/PhysRevE.98.062903">https://link.aps.org/doi/10.1103/PhysRevE.98.062903</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>98</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>6</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>062903</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Physical Review E</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>December 21, 2018</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Phys. Rev. E</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1103/PhysRevE.98.062903">10.1103/PhysRevE.98.062903</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>1/9/2020, 6:08:17 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>APS</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Industrial as well as natural aggregation of fine particles is
+ believed to be associated with electrostatics. Yet like charges repel, 
+so it is unclear how similarly treated particles aggregate. To resolve 
+this apparent contradiction, we analyze conditions necessary to hold 
+aggregates together with electrostatic forces. We find that aggregates 
+of particles charged with the same sign can be held together due to 
+dielectric polarization, we evaluate the effect of aggregate size, and 
+we briefly summarize consequences for practical aggregation.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>1/9/2020, 6:08:17 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>1/9/2020, 6:08:17 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_MITPCXZ4">
+<div><p>Induced charges holding together aggregates of similar sign</p>
+<p>For single higly charged center, k = 8 is good, k &gt; 1 probably will work</p>
+<p>"</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_GVJPCSK3">APS Snapshot					</li>
+					<li id="item_CQPB8F2D">Full Text PDF					</li>
+				</ul>
+				<h3 class="related">Related</h3>
+				<ul class="related">
+					<li id="item_ZL7B666F">A theory of interactions between polarizable dielectric spheres</li>
+				</ul>
+			</li>
+
+
+			<li id="item_3HBQLCMD" class="item journalArticle">
+			<h2>Minimal Energy Clusters of Hard Spheres with Short Range Attractions</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Natalie Arkus</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vinothan N. Manoharan</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Michael P. Brenner</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://link.aps.org/doi/10.1103/PhysRevLett.103.118303">https://link.aps.org/doi/10.1103/PhysRevLett.103.118303</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>103</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>118303</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Physical Review Letters</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>September 11, 2009</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Phys. Rev. Lett.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1103/PhysRevLett.103.118303">10.1103/PhysRevLett.103.118303</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 4:36:07 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>APS</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>We calculate the ground states of hard-sphere clusters, in 
+which n identical hard spherical particles bind by isotropic 
+short-ranged attraction. Combining graph theoretic enumeration with 
+basic geometry, we analytically solve for clusters of n≤10 particles 
+satisfying minimal rigidity constraints. For n≤9 the ground state 
+degeneracy increases exponentially with n, but for n&gt;9 the degeneracy
+ decreases due to the formation of structures with &gt;3n−6 contacts. 
+Interestingly, for n=10 and possibly at n=11 and n=12, the ground states
+ of this system are subsets of hexagonal close-packed crystals. The 
+ground states are not icosahedra at n=12 and n=13. We relate our results
+ to the structure and thermodynamics of suspensions of colloidal 
+particles with short-ranged attractions.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 4:36:08 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 4:36:08 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_THJWS96U">
+<p class="plaintext"></p>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_KRU9L3JX">APS Snapshot					</li>
+					<li id="item_VYQCT2UQ">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_4L22AKF6" class="item journalArticle">
+			<h2>Oscillational instabilities in single‐mode acoustic levitators</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Joseph Rudnick</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>M. Barmatz</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://asa.scitation.org/doi/10.1121/1.398916">https://asa.scitation.org/doi/10.1121/1.398916</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>87</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>81-92</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>The Journal of the Acoustical Society of America</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0001-4966</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>January 1, 1990</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>The Journal of the Acoustical Society of America</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1121/1.398916">10.1121/1.398916</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>11/19/2019, 7:46:55 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>asa.scitation.org (Atypon)</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>11/19/2019, 7:46:55 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>11/19/2019, 7:46:55 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_JZ5U8JET">Full Text PDF					</li>
+					<li id="item_GPL6BDNT">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_MJE2J85P" class="item journalArticle">
+			<h2>Segregation of “isotope” particles within colloidal molecules</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Rebecca W. Perry</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vinothan N. Manoharan</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://pubs.rsc.org/en/content/articlelanding/2016/sm/c5sm02851e">https://pubs.rsc.org/en/content/articlelanding/2016/sm/c5sm02851e</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>12</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>11</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>2868-2876</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Soft Matter</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1744-6848</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2016-03-08</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Soft Matter</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1039/C5SM02851E">10.1039/C5SM02851E</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 4:34:23 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>pubs.rsc.org</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Clusters of spherical particles are called “colloidal 
+molecules” because they adopt structures that resemble those of true 
+molecules. In this analogy, the particles are the atoms, the attractive 
+interactions between them are bonds, and the different structures that 
+appear in equilibrium are isomers. We take this analogy a step further 
+by doping colloidal molecules with colloidal “isotopes,” particles that 
+have the same size but different bonding energies from the other 
+particles in the system. Our molecules are two-dimensional clusters 
+consisting of polystyrene and silica microspheres held together by 
+depletion interactions. Using a combination of optical microscopy and 
+particle tracking, we examine an ensemble of 4- and 5-particle molecules
+ at different isotope ratios. We find that the isotopes tend to 
+segregate to particular positions in the various isomers. We explain 
+these findings using a statistical mechanical model that accounts for 
+the rotational entropy of the isomers and the different interaction 
+potentials between the different types of particles. The model shows how
+ to optimize the yield of any particular isomer, so as to put the 
+isotopes in desired locations. Our experiments and models show that even
+ in systems of particles with isotropic interactions, the structures of 
+self-assembled molecules can in principle be controlled to a 
+surprisingly high extent.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 4:34:23 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 4:34:23 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_JVZEVLYH">Full Text PDF					</li>
+					<li id="item_4RFQP3MY">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_J54BUHMS" class="item journalArticle">
+			<h2>Sound-mediated stable configurations for polystyrene particles</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mudi Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Chunyin Qiu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Shenwei Zhang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Runzhou Han</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Manzhu Ke</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zhengyou Liu</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://link.aps.org/doi/10.1103/PhysRevE.96.052604">https://link.aps.org/doi/10.1103/PhysRevE.96.052604</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>96</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>052604</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Physical Review E</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>November 13, 2017</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Phys. Rev. E</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1103/PhysRevE.96.052604">10.1103/PhysRevE.96.052604</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/26/2019, 12:41:10 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>APS</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Here we report an experimental observation of the 
+self-organization effect of polystyrene particles formed by acoustically
+ induced interaction forces. Two types of stable configurations are 
+observed experimentally: one is mechanically equilibrium and featured by
+ nonzero interparticle separations, and the other corresponds to a 
+closely packed assembly, which is created by strong attractions among 
+the aggregated particles. For the former case involving two or three 
+particles, the most probable interparticle separations (counted for 
+numerous independent initial arrangements) agree well with the 
+theoretical predictions. For the latter case, the number of the final 
+stable configurations grows with the particle number, and the occurrence
+ probability of each configuration is interpreted by a simple geometric 
+model.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/26/2019, 12:41:10 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/26/2019, 12:41:10 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_5C98DYSN">
+<div><p>Angles are important if you want to understand how the clusters formr if their precursos states are asymmetrical</p>
+<p>&nbsp;</p>
+<p>There are multiple nodes in a normal sound field; I've seen them now, wheras I didn't used to.</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_U73LE95I">APS Snapshot					</li>
+					<li id="item_W5AVMW4J">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8U6QCCSR" class="item journalArticle">
+			<h2>Temperature dependence of nylon and PTFE triboelectrification</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Isaac A. Harris</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Melody X. Lim</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Heinrich M. Jaeger</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://link.aps.org/doi/10.1103/PhysRevMaterials.3.085603">https://link.aps.org/doi/10.1103/PhysRevMaterials.3.085603</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>085603</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Physical Review Materials</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>August 14, 2019</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Phys. Rev. Materials</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1103/PhysRevMaterials.3.085603">10.1103/PhysRevMaterials.3.085603</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 4:32:28 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>APS</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Contact electrification, or tribocharging, is pertinent to a 
+broad range of industrial and natural processes involving dielectric 
+materials. However, the basic mechanism by which charge is transferred 
+between insulators is still unclear. Here, we use a simple apparatus 
+that brings two macroscopic surfaces into repeated contact and measures 
+the charge on the surfaces after each contact. We vary the temperature 
+of the surfaces and find that increasing temperature leads to a decrease
+ in the magnitude of charge transfer. When paired with a Monte Carlo 
+simulation and thermogravimetric analysis measurements, our results 
+support a mechanism where adsorbed surface water is crucial for charge 
+exchange. Our setup is easily extendable to a variety of industrially 
+relevant materials.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 4:32:28 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 4:32:28 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_T34UWRL5">
+<div><p>Water is a charge transferring agent for tribocharging (even of insulators)</p>
+<p>There is eventually some saturation in charge transfer as all wet/dry patches are used up after may collisions</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_29UW2AHR">APS Snapshot					</li>
+					<li id="item_EIE7VW4I">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_JDQYYPDN" class="item journalArticle">
+			<h2>The Free-Energy Landscape of Clusters of Attractive Hard Spheres</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Guangnan Meng</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Natalie Arkus</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Michael P. Brenner</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vinothan N. Manoharan</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://science.sciencemag.org/content/327/5965/560">https://science.sciencemag.org/content/327/5965/560</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>Copyright © 2010, American Association for the Advancement of Science</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>327</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>5965</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>560-563</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Science</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0036-8075, 1095-9203</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2010/01/29</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>PMID: 20110500</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1126/science.1181263">10.1126/science.1181263</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/16/2019, 4:35:25 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>science.sciencemag.org</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The study of clusters has provided a tangible link between 
+local geometry and bulk condensed matter, but experiments have not yet 
+systematically explored the thermodynamics of the smallest clusters. 
+Here we present experimental measurements of the structures and free 
+energies of colloidal clusters in which the particles act as hard 
+spheres with short-range attractions. We found that highly symmetric 
+clusters are strongly suppressed by rotational entropy, whereas the most
+ stable clusters have anharmonic vibrational modes or extra bonds. Many 
+of these clusters are subsets of close-packed lattices. As the number of
+ particles increases from 6 to 10, we observe the emergence of a complex
+ free-energy landscape with a small number of ground states and many 
+local minima.
+Entropic effects favor the formation of small clusters of colloidal 
+particles that have lower symmetry.
+Entropic effects favor the formation of small clusters of colloidal 
+particles that have lower symmetry.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/16/2019, 4:35:25 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/16/2019, 4:35:25 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_PAI8BNQE">Full Text PDF					</li>
+					<li id="item_UPVA4BIY">PubMed entry					</li>
+					<li id="item_IC78X37J">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_TYT9R46A" class="item journalArticle">
+			<h2>Triboelectrification and Razorbacks: Geophysical Patterns Produced in Dry Grains</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Troy Shinbrot</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Keirnan LaMarche</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Benjamin J. Glasser</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://link.aps.org/doi/10.1103/PhysRevLett.96.178002">https://link.aps.org/doi/10.1103/PhysRevLett.96.178002</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>96</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>17</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>178002</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Physical Review Letters</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>May 4, 2006</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Phys. Rev. Lett.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1103/PhysRevLett.96.178002">10.1103/PhysRevLett.96.178002</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/7/2019, 4:50:26 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>APS</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Electrostatic interactions between particles can dramatically 
+affect granular flows, creating industrial safety and handling problems 
+[K. N. Palmer, Dust Explosions and Fires (Chapman and Hall, London, 
+1973), pp. 388–389]. We present experimental data demonstrating that 
+charging of grains can also cause spontaneous self-assembly that may 
+generate lasting geological patterns under arid conditions. 
+Paradoxically, we find that grains that tribocharge enough to produce 
+small explosions, ejecting grains meters into the air, leave little net 
+charge on grains. Rather, grains charge into strongly heterogeneous 
+polar clusters. These assemble into stereotyped residual structures that
+ resemble geological features, for example, razorbacks observed on Mars 
+[“The Razorback Mystery,” July 16, 2004, 
+http://www.jpl.nasa.gov/missions/mer/images.cfm?id=701].</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Triboelectrification and Razorbacks</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/7/2019, 4:50:26 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/7/2019, 4:50:26 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_CJG3DI3Z">
+<div><p>Charged clusters are not symmetrical, or round, in their ground states, necessarily</p></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_7FTE7KCP">APS Snapshot					</li>
+					<li id="item_ULRHBJ53">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8ZN6XI5V" class="item journalArticle">
+			<h2>Two-Dimensional Clusters of Colloidal Spheres: Ground States, Excited States, and Structural Rearrangements</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Rebecca W. Perry</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Miranda C. Holmes-Cerfon</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Michael P. Brenner</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vinothan N. Manoharan</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://link.aps.org/doi/10.1103/PhysRevLett.114.228301">https://link.aps.org/doi/10.1103/PhysRevLett.114.228301</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>114</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>22</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>228301</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Physical Review Letters</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>June 3, 2015</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Phys. Rev. Lett.</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1103/PhysRevLett.114.228301">10.1103/PhysRevLett.114.228301</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>9/26/2019, 5:14:19 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>APS</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>We study experimentally what is arguably the simplest yet 
+nontrivial colloidal system: two-dimensional clusters of six spherical 
+particles bound by depletion interactions. These clusters have multiple,
+ degenerate ground states whose equilibrium distribution is determined 
+by entropic factors, principally the symmetry. We observe the 
+equilibrium rearrangements between ground states as well as all of the 
+low-lying excited states. In contrast to the ground states, the excited 
+states have soft modes and low symmetry, and their occupation 
+probabilities depend on the size of the configuration space reached 
+through internal degrees of freedom, as well as a single “sticky 
+parameter” encapsulating the depth and curvature of the potential. Using
+ a geometrical model that accounts for the entropy of the soft modes and
+ the diffusion rates along them, we accurately reproduce the measured 
+rearrangement rates. The success of this model, which requires no 
+fitting parameters or measurements of the potential, shows that the 
+free-energy landscape of colloidal systems and the dynamics it governs 
+can be understood geometrically.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Two-Dimensional Clusters of Colloidal Spheres</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>9/26/2019, 5:14:19 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>9/26/2019, 5:14:19 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_W9DV2NZW">APS Snapshot					</li>
+					<li id="item_JYETQ4VL">Full Text PDF					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_AJM8ZLE5" class="item journalArticle">
+			<h2>Using small perturbations to control chaos</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Troy Shinbrot</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Celso Grebogi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>James A. Yorke</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Edward Ott</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.nature.com/articles/363411a0">https://www.nature.com/articles/363411a0</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>1993 Nature Publishing Group</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>363</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>6428</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>411-417</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Nature</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1476-4687</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1993/06</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Nature</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/363411a0">10.1038/363411a0</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/2/2019, 5:34:36 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>www.nature.com</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The extreme sensitivity of chaotic systems to tiny 
+perturbations (the ‘butterfly effect’) can be used both to stabilize 
+regular dynamic behaviours and to direct chaotic trajectories rapidly to
+ a desired state. Incorporating chaos deliberately into practical 
+systems therefore offers the possibility of achieving greater 
+flexibility in their performance.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/2/2019, 5:34:36 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/2/2019, 5:34:36 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_V8Z4SJD6">Full Text PDF					</li>
+					<li id="item_4CKX4V94">Snapshot					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_VPA9XY6Y" class="item journalArticle">
+			<h2>Why do particle clouds generate electric charges?</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>T. Pähtz</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>H. J. Herrmann</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>T. Shinbrot</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.nature.com/articles/nphys1631">https://www.nature.com/articles/nphys1631</a></td>
+					</tr>
+					<tr>
+					<th>Rights</th>
+						<td>2010 Nature Publishing Group</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>6</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>364-368</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Nature Physics</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1745-2481</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2010/05</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Nature Phys</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1038/nphys1631">10.1038/nphys1631</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>10/2/2019, 4:43:49 PM</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>www.nature.com</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Granular flows, such as in silos or desert sandstorms, can 
+form charged particle clouds in the presence of an electric field. 
+Simulations and experiments on inert grains explain how significant 
+electrical charges are able to accumulate.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>10/2/2019, 4:43:49 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>10/2/2019, 4:43:49 PM</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_X6GAIC3Z">
+<div><ul>
+<li>Idea: Maybe particles charge when in an electric field because they 
+become polarized, cancel out each others' charge on a contact surface, 
+and then become repolarized by the field
+<ul>
+<li>Why does the field continue to polarize a charged particle though, instead of just, say, rotate it?</li>
+</ul>
+</li>
+<li>&nbsp;</li>
+<li>Has evidence of charging of like particles e.g. sand grains in dust storms, flour in mills</li>
+</ul></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_JM32SMW2">Full Text PDF					</li>
+					<li id="item_H9WLU4QJ">Snapshot					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>
