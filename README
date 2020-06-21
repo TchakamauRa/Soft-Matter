@@ -1,0 +1,37 @@
+Instructions for processing videos
+
+Sequence:
+- Use Shape Testing to determine if the particles are well separated by the thresholding functions
+	and adjust their variables until that's true
+	
+- Use Shape Testing Multiple with a sample video with known classifications to determine
+	characteristic bond lengths that separate configurations. You should transfer the thresholding
+	parameters you found in Shape Testing
+	
+- Use Video Reader to count transitions in all the videos
+	You need to transfer the classification scheme and the bond lengths you found in Shape 
+	Testing Multiple into Video Reader (or export and import them as a function).
+	
+- Process the results using Matrix Multiplication to see the inferred bond strengths and transition
+	times from the sample. 
+	
+- To determine what level of error you incurred with a particular pair of stability/transition thresholds
+	(), run Matrix_Error, using a video where the number of transitions is known and where a variety
+	of transitions (break apart, hinge, multiple states, some same-state) occur. Tweak these
+	to get a reasonable distribution of transition times (implying no transition of a certain lengtth
+	is missed), while keeping the error in the recorded proportion of each transition kind low.
+
+
+
+Additional
+- Find the effect of washing on the glass and plastic balls analysed in Sizes of Balls.
+- Find the change in transition probabilities over time analysis in Time Avg Probs	
+
+
+Results
+	- 
+	
+Left for me to do:
+- Ball roughness
+- Matrix mult on the last run for the half half with styrene and polyethylene
+- Styrerror plotting for the last run with  half half styrene and polyethylene
